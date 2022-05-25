@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authors",
+  "info": {
+    "singularName": "author",
+    "pluralName": "authors",
+    "displayName": "Author",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "AboutYou": {
+      "type": "richtext",
+      "required": true
+    },
+    "GitHub": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "LinkedIn": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "admin_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    }
+  }
+}
