@@ -7,7 +7,9 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "dump": "strapi config:dump -f data/dump.json -p",
+    "restore": "strapi config:restore -f data/dump.json -s replace"
   },
   "devDependencies": {},
   "dependencies": {

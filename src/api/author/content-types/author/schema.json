@@ -17,20 +17,20 @@
       "relation": "oneToMany",
       "target": "api::article.article"
     },
-    "Name": {
+    "authorName": {
       "type": "string",
       "required": true
     },
-    "AboutYou": {
+    "aboutYou": {
       "type": "richtext",
       "required": true
     },
-    "GitHub": {
+    "github": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "LinkedIn": {
+    "linkedin": {
       "type": "string",
       "unique": true,
       "required": true
