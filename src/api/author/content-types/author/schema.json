@@ -4,7 +4,7 @@
   "info": {
     "singularName": "author",
     "pluralName": "authors",
-    "displayName": "Author",
+    "displayName": "author",
     "description": ""
   },
   "options": {
@@ -12,33 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "articles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article.article"
-    },
-    "authorName": {
+    "name": {
       "type": "string",
       "required": true
-    },
-    "aboutYou": {
-      "type": "richtext",
-      "required": true
-    },
-    "github": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
-    "linkedin": {
-      "type": "string",
-      "unique": true,
-      "required": true
-    },
-    "admin_user": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "admin::user"
     }
   }
 }
