@@ -18,6 +18,18 @@
     },
     "tagline": {
       "type": "string"
+    },
+    "aboutYou": {
+      "type": "richtext",
+      "required": true
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
