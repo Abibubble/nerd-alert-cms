@@ -31,6 +31,10 @@
     },
     "tagline": {
       "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
