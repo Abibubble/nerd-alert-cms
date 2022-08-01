@@ -23,7 +23,7 @@
       "type": "richtext",
       "required": true
     },
-    "avatar": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": true,
