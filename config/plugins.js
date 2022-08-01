@@ -8,8 +8,8 @@ module.exports = ({ env }) => ({
         api_secret: env("CLOUDINARY_SECRET"),
       },
       actionOptions: {
-        upload: {
-          folder: env("CLOUDINARY_FOLDER"),
+        uploadStream: {
+          folder: env("CLOUDINARY_FOLDER", ""),
         },
         delete: {},
       },
@@ -18,6 +18,15 @@ module.exports = ({ env }) => ({
         medium: 750,
         small: 500,
         thumbnail: 64,
+      },
+    },
+  },
+  transformer: {
+    enabled: true,
+    config: {
+      responseTransforms: {
+        removeAttributesKey: true,
+        removeDataKey: true,
       },
     },
   },

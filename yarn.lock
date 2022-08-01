@@ -1763,7 +1763,7 @@
     "@strapi/utils" "4.2.3"
     "fs-extra" "10.0.0"
 
-"@strapi/strapi@4.2.3":
+"@strapi/strapi@^4.0.7", "@strapi/strapi@4.2.3":
   "integrity" "sha512-kK7sBD1/xX5Kf4knESZcYF4mUTrbbLVt15v62UROcnga7ZNWt4QlzVJEL8y6R02n1HWVg6brslQ9aegLE08E8Q=="
   "resolved" "https://registry.npmjs.org/@strapi/strapi/-/strapi-4.2.3.tgz"
   "version" "4.2.3"
@@ -9579,6 +9579,11 @@
   "integrity" "sha512-/c645XdExBypL01TpFKiG/3RAa/Qmu+zRi0MwAmrdEkwHNuN0ebo8ccAXBBDa5Z0QOJgBskUIbuCK91x0sCVEw=="
   "resolved" "https://registry.npmjs.org/std-env/-/std-env-3.1.1.tgz"
   "version" "3.1.1"
+
+"strapi-plugin-transformer@^2.0.2":
+  "integrity" "sha512-mjOxbts44LMYaaao3Lc/0dsd+0Lpn122BiafFKmYeYb7vna3Oz7YEta4u/upZq34dGQx1BrYLcwMbPXn+G4E1g=="
+  "resolved" "https://registry.npmjs.org/strapi-plugin-transformer/-/strapi-plugin-transformer-2.0.2.tgz"
+  "version" "2.0.2"
 
 "stream-browserify@^3.0.0":
   "integrity" "sha512-H73RAHsVBapbim0tU2JwwOiXUj+fikfiaoYAKHF3VJfA0pe2BCzkhAHBlLG6REzE+2WNZcxOXjK7lkso+9euLA=="
