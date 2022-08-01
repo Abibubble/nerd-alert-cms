@@ -37,10 +37,6 @@
         "images"
       ]
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "title"
-    },
     "categories": {
       "type": "relation",
       "relation": "oneToMany",
