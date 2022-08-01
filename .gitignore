@@ -10,7 +10,6 @@ Icon
 .Trashes
 ._*
 
-
 ############################
 # Linux
 ############################
@@ -94,6 +93,7 @@ logs
 results
 node_modules
 .node_history
+package-lock.json
 
 ############################
 # Tests
