@@ -30,6 +30,12 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "github": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
     }
   }
 }
