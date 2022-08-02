@@ -30,15 +30,16 @@
       "target": "api::author.author"
     },
     "tagline": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

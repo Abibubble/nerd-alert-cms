@@ -17,7 +17,8 @@
       "required": true
     },
     "tagline": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "aboutYou": {
       "type": "richtext",
