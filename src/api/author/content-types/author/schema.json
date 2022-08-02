@@ -32,10 +32,12 @@
       ]
     },
     "github": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "linkedin": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
