@@ -93,7 +93,6 @@ logs
 results
 node_modules
 .node_history
-package-lock.json
 
 ############################
 # Tests
@@ -112,3 +111,5 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+package-lock.json
