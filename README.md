@@ -4,6 +4,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/abibubble/nerd-alert-cms)
 ![GitHub language count](https://img.shields.io/github/languages/count/abibubble/nerd-alert-cms)
 ![GitHub top language](https://img.shields.io/github/languages/top/abibubble/nerd-alert-cms)
+<img src="https://img.shields.io/badge/yarn-~1.22.15-blue" />
+<img src="https://img.shields.io/badge/node-~16.14.2-green" />
 ![GitHub forks](https://img.shields.io/github/forks/abibubble/nerd-alert-cms?style=social)
 
 [Here is a link to the deployed site](https://nerd-alert-cms.herokuapp.com/)
@@ -43,7 +45,8 @@ This is a Strapi CMS database, containing blogs and videos by the members of Ner
 
 ## Local Development
 
-- Run the development server with `npm run dev`
+- Run `yarn install` to install the dependencies.
+- Run the development server with `npm run dev`.
 - Open [http://localhost:1337](http://localhost:1337) in your browser.
 - Visit [http://localhost:1337/api](http://localhost:1337/api) for any API calls.
 - Visit [http://localhost:1337/admin](http://localhost:1337/admin) to make updates to the CMS.
